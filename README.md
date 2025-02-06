@@ -1,4 +1,4 @@
-zsh: parse error near `)'# Homebrew
+# Homebrew
 
 [![GitHub release](https://img.shields.io/github/release/Homebrew/brew.svg)](https://github.com/Homebrew/brew/releases)
 
@@ -86,3 +86,20 @@ Secure password storage and syncing is provided by [1Password for Teams](https:/
 Homebrew is generously supported by [GitHub](https://github.com/github), [Custom Ink](https://github.com/customink), [Randy Reddig](https://github.com/ydnar), [Codecademy](https://github.com/Codecademy), [MacPaw Inc.](https://github.com/MacPaw), [Workbrew](https://github.com/Workbrew) and many other users and organisations via [GitHub Sponsors](https://github.com/sponsors/Homebrew).
 
 [![GitHub](https://github.com/github.png?size=64)](https://github.com/github)
+
+## Bot Functionality
+
+### Frontend
+
+A simple HTML form for inputting information is available in the `frontend.html` file. This form includes fields for name and website, and a submit button.
+
+### Backend
+
+A Ruby script to handle form submissions and store the data in a database is available in the `backend.rb` file. The script uses SQLite for the database.
+
+### Setup Instructions
+
+1. Ensure you have the necessary dependencies installed. You can use the provided `.devcontainer/devcontainer.json` to set up a development container with the required dependencies.
+2. Open the `frontend.html` file in a web browser to access the form.
+3. Run the `backend.rb` script to start the backend server.
+4. Submit the form in the frontend to store the data in the database.
